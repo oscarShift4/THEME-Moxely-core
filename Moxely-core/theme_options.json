@@ -1,6 +1,6 @@
 {
   "theme_name": "Moxely Core",
-  "selected_preset": 1,
+  "selected_preset": 0,
   "field_groups": [
     {
       "name": "Header"
@@ -27,42 +27,91 @@
           "label": "Navigation color",
           "name": "nav_color",
           "type": 2,
-          "value": "000000",
+          "value": "39a8fe",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
-          "value": "ffffff",
+          "value": "fff",
+          "group": 0
+        },
+        {
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
+          "type": 2,
+          "value": "005fb0",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu text color",
+          "name": "submenu_text_color",
+          "type": 2,
+          "value": "005fb0",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "f2f2f2",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "5b5b5d",
           "group": 0
         },
         {
           "label": "Headings color",
           "name": "headings_color",
           "type": 2,
-          "value": "000000",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "000000",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Primary button color",
           "name": "btn_color",
           "type": 2,
-          "value": "000000",
+          "value": "39a8fe",
           "group": 1
         },
         {
           "label": "Primary button border",
           "name": "btn_border",
           "type": 2,
-          "value": "000000",
+          "value": "39a8fe",
           "group": 1
         },
         {
@@ -76,21 +125,21 @@
           "label": "Secondary button color",
           "name": "btn2_color",
           "type": 2,
-          "value": "FFFFFF",
+          "value": "005fb0",
           "group": 1
         },
         {
           "label": "Secondary button border",
           "name": "btn2_border",
           "type": 2,
-          "value": "000000",
+          "value": "005fb0",
           "group": 1
         },
         {
           "label": "Secondary button text color",
           "name": "btn2_text_color",
           "type": 2,
-          "value": "000000",
+          "value": "fff",
           "group": 1
         },
         {
@@ -163,36 +212,52 @@
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
         },
         {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "d04b64",
-          "group": 3
-        },
-        {
           "label": "Rating Stars color",
           "name": "stars_color",
           "type": 2,
-          "value": "000000",
+          "value": "fade60",
           "group": 3
         },
         {
           "label": "Footer color",
           "name": "footer_color",
           "type": 2,
-          "value": "0f0f0f",
+          "value": "333",
           "group": 4
         },
         {
           "label": "Footer text color",
           "name": "footer_text_color",
           "type": 2,
-          "value": "cccccc",
+          "value": "fff",
+          "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "dbecf9",
           "group": 4
         }
       ]
@@ -208,25 +273,74 @@
           "value": "193441",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+        {
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
+          "type": 2,
           "value": "D1DBBD",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu hover color",
+          "name": "submenu_hover_color",
+          "type": 2,
+          "value": "D1DBBD",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "193441",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "193441",
           "group": 0
         },
         {
           "label": "Headings color",
           "name": "headings_color",
           "type": 2,
-          "value": "3E606F",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "222222",
+          "value": "4e4e4e",
           "group": 1
         },
         {
@@ -247,7 +361,7 @@
           "label": "Primary button text color",
           "name": "btn_text_color",
           "type": 2,
-          "value": "D1DBBD",
+          "value": "FFFFFF",
           "group": 1
         },
         {
@@ -304,7 +418,7 @@
           "label": "Heading base size",
           "name": "heading_base_size",
           "type": 3,
-          "value": "30",
+          "value": "14",
           "options": [
             {
               "text": "24px",
@@ -341,16 +455,25 @@
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
-        },
-        {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "A788B2",
-          "group": 3
         },
         {
           "label": "Rating Stars color",
@@ -372,6 +495,13 @@
           "type": 2,
           "value": "FCFFF5",
           "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "daf6ff",
+          "group": 4
         }
       ]
     },
@@ -386,25 +516,74 @@
           "value": "E1244E",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
-          "value": "F1F1F1",
+          "value": "fff",
           "group": 0
         },
         {
-          "label": "Headings color",
-          "name": "headings_color",
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
           "type": 2,
-          "value": "717171",
-          "group": 1
+          "value": "000",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu hover color",
+          "name": "submenu_hover_color",
+          "type": 2,
+          "value": "E1244E",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "E1244E",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "E1244E",
+          "group": 0
+        },
+		{
+          "label": "Freeship text color",
+          "name": "fs_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "0D0D0D",
+          "value": "4e4e4e",
           "group": 1
         },
         {
@@ -439,7 +618,7 @@
           "label": "Secondary button border",
           "name": "btn2_border",
           "type": 2,
-          "value": "717171",
+          "value": "F1F1F1",
           "group": 1
         },
         {
@@ -482,7 +661,7 @@
           "label": "Heading base size",
           "name": "heading_base_size",
           "type": 3,
-          "value": "30",
+          "value": "14",
           "options": [
             {
               "text": "24px",
@@ -519,16 +698,25 @@
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
-        },
-        {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "0D0D0D",
-          "group": 3
         },
         {
           "label": "Rating Stars color",
@@ -549,6 +737,13 @@
           "name": "footer_text_color",
           "type": 2,
           "value": "F1F1F1",
+          "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "f6cae2",
           "group": 4
         }
       ]
@@ -561,28 +756,77 @@
           "label": "Navigation color",
           "name": "nav_color",
           "type": 2,
-          "value": "616161",
+          "value": "5EBF66",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
-          "value": "D5FFE0",
+          "value": "fff",
+          "group": 0
+        },
+        {
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
+          "type": 2,
+          "value": "000",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu hover color",
+          "name": "submenu_hover_color",
+          "type": 2,
+          "value": "5EBF66",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "5EBF66",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "5EBF66",
           "group": 0
         },
         {
           "label": "Headings color",
           "name": "headings_color",
           "type": 2,
-          "value": "616161",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "222222",
+          "value": "4e4e4e",
           "group": 1
         },
         {
@@ -617,7 +861,7 @@
           "label": "Secondary button border",
           "name": "btn2_border",
           "type": 2,
-          "value": "616161",
+          "value": "D5FFE0",
           "group": 1
         },
         {
@@ -660,7 +904,7 @@
           "label": "Heading base size",
           "name": "heading_base_size",
           "type": 3,
-          "value": "30",
+          "value": "14",
           "options": [
             {
               "text": "24px",
@@ -697,16 +941,25 @@
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
-        },
-        {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "168A35",
-          "group": 3
         },
         {
           "label": "Rating Stars color",
@@ -727,6 +980,13 @@
           "name": "footer_text_color",
           "type": 2,
           "value": "D5FFE0",
+          "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "daffe6",
           "group": 4
         }
       ]
@@ -739,42 +999,91 @@
           "label": "Navigation color",
           "name": "nav_color",
           "type": 2,
-          "value": "07575B",
+          "value": "01a2c1",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
-          "value": "FFFFFF",
+          "value": "fff",
+          "group": 0
+        },
+        {
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
+          "type": 2,
+          "value": "000",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu hover color",
+          "name": "submenu_hover_color",
+          "type": 2,
+          "value": "01a2c1",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "01a2c1",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "01a2c1",
           "group": 0
         },
         {
           "label": "Headings color",
           "name": "headings_color",
           "type": 2,
-          "value": "003B46",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "222222",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Primary button color",
           "name": "btn_color",
           "type": 2,
-          "value": "003B46",
+          "value": "01a2c1",
           "group": 1
         },
         {
           "label": "Primary button border",
           "name": "btn_border",
           "type": 2,
-          "value": "003B46",
+          "value": "01a2c1",
           "group": 1
         },
         {
@@ -787,6 +1096,13 @@
         {
           "label": "Secondary button color",
           "name": "btn2_color",
+          "type": 2,
+          "value": "66A5A5",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
           "type": 2,
           "value": "66A5A5",
           "group": 1
@@ -831,7 +1147,7 @@
           "label": "Heading base size",
           "name": "heading_base_size",
           "type": 3,
-          "value": "30",
+          "value": "14",
           "options": [
             {
               "text": "24px",
@@ -868,16 +1184,25 @@
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
-        },
-        {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "003B46",
-          "group": 3
         },
         {
           "label": "Rating Stars color",
@@ -890,14 +1215,21 @@
           "label": "Footer color",
           "name": "footer_color",
           "type": 2,
-          "value": "003B46",
+          "value": "01a2c1",
           "group": 4
         },
         {
           "label": "Footer text color",
           "name": "footer_text_color",
           "type": 2,
-          "value": "FFFFFF",
+          "value": "fff",
+          "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "dafeff",
           "group": 4
         }
       ]
@@ -910,42 +1242,91 @@
           "label": "Navigation color",
           "name": "nav_color",
           "type": 2,
-          "value": "5B4B21",
+          "value": "39a8fe",
           "group": 0
         },
-        {
+		{
           "label": "Navigation text color",
           "name": "nav_text_color",
           "type": 2,
-          "value": "FFFFFF",
+          "value": "fff",
+          "group": 0
+        },
+        {
+          "label": "Navigation hover color",
+          "name": "nav_hover_color",
+          "type": 2,
+          "value": "005fb0",
+          "group": 0
+        },
+		{
+          "label": "Navigation hover bg color",
+          "name": "nav_hover_bg_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "submenu text color",
+          "name": "submenu_text_color",
+          "type": 2,
+          "value": "005fb0",
+          "group": 0
+        },
+		{
+          "label": "Top Bar color",
+          "name": "top_bar",
+          "type": 2,
+          "value": "f2f2f2",
+          "group": 0
+        },
+		{
+          "label": "Menu Link color",
+          "name": "menu_text_color",
+          "type": 2,
+          "value": "005fb0",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart color",
+          "name": "cart_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 0
+        },
+		{
+          "label": "Flyout cart bg color",
+          "name": "cart_bg_color",
+          "type": 2,
+          "value": "5b5b5d",
           "group": 0
         },
         {
           "label": "Headings color",
           "name": "headings_color",
           "type": 2,
-          "value": "003B46",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Body text color",
           "name": "body_text_color",
           "type": 2,
-          "value": "222222",
+          "value": "4e4e4e",
           "group": 1
         },
         {
           "label": "Primary button color",
           "name": "btn_color",
           "type": 2,
-          "value": "003B46",
+          "value": "39a8fe",
           "group": 1
         },
         {
           "label": "Primary button border",
           "name": "btn_border",
           "type": 2,
-          "value": "003B46",
+          "value": "39a8fe",
           "group": 1
         },
         {
@@ -959,28 +1340,28 @@
           "label": "Secondary button color",
           "name": "btn2_color",
           "type": 2,
-          "value": "66A5A5",
+          "value": "005fb0",
           "group": 1
         },
         {
           "label": "Secondary button border",
           "name": "btn2_border",
           "type": 2,
-          "value": "717171",
+          "value": "005fb0",
           "group": 1
         },
         {
           "label": "Secondary button text color",
           "name": "btn2_text_color",
           "type": 2,
-          "value": "717171",
+          "value": "fff",
           "group": 1
         },
         {
           "label": "Base font size",
           "name": "base_font_size",
           "type": 3,
-          "value": "",
+          "value": "14",
           "options": [
             {
               "text": "14px",
@@ -1009,7 +1390,7 @@
           "label": "Heading base size",
           "name": "heading_base_size",
           "type": 3,
-          "value": "",
+          "value": "14",
           "options": [
             {
               "text": "24px",
@@ -1041,41 +1422,58 @@
             },
             {
               "text": "31px",
+
               "value": 31
             },
             {
               "text": "32px",
               "value": 32
+            },
+			{
+              "text": "33px",
+              "value": 33
+            },
+			{
+              "text": "34px",
+              "value": 34
+            },
+			{
+              "text": "35px",
+              "value": 35
+            },
+			{
+              "text": "36px",
+              "value": 36
             }
           ],
           "group": 2
         },
         {
-          "label": "Sale text",
-          "name": "sale_text",
-          "type": 2,
-          "value": "0D0D0D",
-          "group": 3
-        },
-        {
           "label": "Rating Stars color",
           "name": "stars_color",
           "type": 2,
-          "value": "E1244E",
+          "value": "fade60",
           "group": 3
         },
         {
           "label": "Footer color",
           "name": "footer_color",
           "type": 2,
-          "value": "07575B",
+          "value": "333",
           "group": 4
         },
         {
           "label": "Footer text color",
           "name": "footer_text_color",
           "type": 2,
-          "value": "F1F1F1",
+          "value": "fff",
+          "group": 4
+        },
+		{
+          "label": "New Releases BG",
+          "name": "nr_bg_color",
+          "type": 2,
+          "value": "dbecf9",
           "group": 4
         }
       ]

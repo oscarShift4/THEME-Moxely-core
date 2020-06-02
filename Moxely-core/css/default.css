@@ -21,7 +21,8 @@ body {
     font-family: karla,sans-serif;
     background: #fff;
     color: #4e4e4e;
-    line-height: 1.5
+    line-height: 1.5;
+	font-size: 14px;
 }
 
 body:not('.checkout-1') {
