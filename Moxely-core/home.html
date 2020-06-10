@@ -24,25 +24,26 @@
 		</div>
 	</section>
 	<!--END: CATEGORY_HEADER-->
-
+	
 	<!--START: FEATURE_MENU-->
     <section class="products-section">
-		<div class="container">
-			<div class="row">
-				<h2 class="header-specials"><span>[category_Header-specials]</span></h2>
-			</div>
-		</div>
-		<div class="container">
-			<!--START: CATEGORY_ITEMS-->
-			<div class="product-items product-items-[product-cols-number]">
-				<div id="carousel-sellers" class="carousel slide">
+        <div class="container">
+            
+           <h2 class="header-specials"><span>[category_Header-specials]</span></h2>
+
+			<div class="product-carousel flexslider">
+				<!--START: CATEGORY_ITEMS-->
+				<ul class="product-items slides" data-productcols="[product-cols-number]" >
 					<!--START: ITEM_TEMPLATE_0-->
+					<li>
 					[product_items]
+					</li>
 					<!--END: ITEM_TEMPLATE_0-->
-				</div>
+				</ul>
+				<!--END: CATEGORY_ITEMS-->
 			</div>
-			<!--END: CATEGORY_ITEMS-->
-		</div>
+            
+        </div>
     </section>
 	<!--END: FEATURE_MENU-->
 
@@ -177,17 +178,12 @@
 				   (window.innerWidth < 992) ? 2 : proCol;
 		}
 
-		function getItemSize() {
-			var proItem = jQuery("#carousel-sellers .product-item").outerWidth();
-			return proItem;
-		}
-
 		$window.on("load", function () {
 			jQuery('.product-carousel').flexslider({
 				animation: "slide",
 				controlNav: false,
 				keyboard: false,
-				itemWidth: getItemSize(),
+				itemWidth: 210,
 				itemMargin: 0,
 				minItems: getGridSize(), // use function to pull in initial value
 				maxItems: getGridSize() // use function to pull in initial value

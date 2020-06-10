@@ -15,7 +15,28 @@ body {
 footer {
     flex-shrink: 0
 }
-
+.product-items.productList .product-item .product-content {
+    text-align: left;
+}
+.product-items.productList .product-item .img a {
+    position: initial;
+}
+.product-items.productList .product-item .img {
+    border:1px solid #ececec;
+}
+.homepage-blog-posts .post-image-container img {
+    height: 210px;
+}
+@media (max-width: 991px){
+.product-items.productList .product-item .img {
+    width: 32%;
+}
+}
+@media(max-width:767px){
+	.homepage-blog-posts .post-image-container img {
+		height: auto;
+	}
+}
 body {
     font-family: open sans,sans-serif;
     font-family: karla,sans-serif;
