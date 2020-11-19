@@ -352,7 +352,6 @@ div.qaLink a {
 }
 
 #listing .short-description,#listing .product-id,#listing .extrafieldsBlock {
-    display: none
 }
 
 .wide-container {
